@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="store.js" async></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home of Music & Games</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Games.html">Games</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Store.html">Store</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">Store</h1>
+    </header>
+
+    <section class="container content-section container-background">
+      <h2 class="section-header">Music</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Album 1</span>
+          <img class="shop-item-image" src="Images/atl1.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">0.00$</span>
+            <button class="btn btn-primary shop-item-btn" type="button">
+              +Cart
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 2</span>
+          <img class="shop-item-image" src="Images/atl4.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">1.00$</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 3</span>
+          <img class="shop-item-image" src="Images/atl.jpg" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">2.00$</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Album 4</span>
+          <img class="shop-item-image" src="Images/scc.jpg" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">3.00$</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container content-section container-background">
+      <h2 class="section-header">Merchandise</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Black Top 1</span>
+          <img class="shop-item-image" src="Images/merch1.jpg" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">3.00$</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Black Top 2</span>
+          <img class="shop-item-image" src="Images/merch2.jpg" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">3.00$</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Black Top 3</span>
+          <img class="shop-item-image" src="Images/merch3.jpg" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Black Top 4</span>
+          <img class="shop-item-image" src="Images/merch4.jpg" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">3.00$</span>
+            <button type="button" class="btn btn-primary shop-item-btn">
+              +Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container content-section container-background">
+      <h2 class="section-header">Cart</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">Items</span>
+        <span class="cart-price cart-header cart-column">Price</span>
+        <span class="cart-qty cart-header cart-column">Quantity</span>
+      </div>
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="Images/scc.jpg"
+              alt=""
+              width="100"
+              height="100"
+            />
+            <span class="cart-item-title">Album 3</span>
+          </div>
+          <span class="cart-price cart-column">$22.00</span>
+          <div class="cart-qty cart-header cart-column">
+            <input class="cart-qty-input" type="number" value="1" />
+            <button class="btn-danger cart-qty-btn" role="button">
+              Remove
+            </button>
+          </div>
+        </div>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="Images/merch1.jpg"
+              alt=""
+              width="100"
+            />
+            <span class="cart-item-title">Black Hoodie</span>
+          </div>
+          <span class="cart-price cart-column">$32.45</span>
+          <div class="cart-qty cart-header cart-column">
+            <input class="cart-qty-input" type="number" value="1" />
+            <button class="btn-danger cart-qty-btn" role="button">
+              Remove
+            </button>
+          </div>
+        </div>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="Images/atl4.jpg"
+              alt=""
+              width="100"
+            />
+            <span class="cart-item-title">Album 2</span>
+          </div>
+          <span class="cart-price cart-column">$19.99</span>
+          <div class="cart-qty cart-header cart-column">
+            <input class="cart-qty-input" type="number" value="1" />
+            <button class="btn-danger cart-qty-btn" role="button">
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="cart-total">
+        <span class="cart-total-title">Total</span>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" role="button">
+        Purchase
+      </button>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h1 class="contacts">Contact us</h1>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com">
+              <img src="Images/youtube.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com">
+              <img src="Images/124010.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://open.spotify.com/artist/1YStXHRj5phGb2LGCudZ6N">
+              <img src="Images/spotify.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
